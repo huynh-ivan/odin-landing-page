@@ -13,6 +13,10 @@ ul {
     list-style: none;
 }
 
+button {
+    width: auto;
+}
+
 .bg-dark {
     background-color: #1f2937;
 }
@@ -20,8 +24,9 @@ ul {
 /* Header Selectors */
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 16px 0px;
 }
 
 .logo {
@@ -39,11 +44,34 @@ ul {
 
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9f4f8;
+    gap: 54px;
+}
+
+.hero h2 {
+    font-size: 48px;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 500px;
+    gap: 16px;
+}
+
+.hero-image {
+    width: 400px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
 }
 
 
