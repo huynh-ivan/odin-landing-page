@@ -22,7 +22,6 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .logo {
@@ -36,6 +35,15 @@ ul {
     gap: 8px;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
 }
 
 
