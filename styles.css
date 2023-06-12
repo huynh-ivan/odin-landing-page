@@ -48,6 +48,7 @@ button {
     align-items: center;
     color: #f9f4f8;
     gap: 54px;
+    padding: 24px 0px;
 }
 
 .hero h2 {
