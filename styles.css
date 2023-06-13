@@ -13,7 +13,11 @@ ul {
 }
 
 button {
-    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 40px;
 }
 
 /* Global Selectors */
