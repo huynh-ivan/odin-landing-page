@@ -220,6 +220,11 @@ button {
     gap: 8px;
 }
 
-
-
 /* Footer Selectors */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    color: #e5e7eb;
+}
