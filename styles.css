@@ -140,14 +140,24 @@ button {
 
 /*Quote Selectors*/
 .quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
 
 }
 
-.block-quote {
+.blockquote {
+    display: flex;
+    justify-content: flex-start;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
 
 }
 
 .thor {
+    display: flex;
+    justify-content: flex-end;
 
 }
 
