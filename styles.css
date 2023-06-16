@@ -47,6 +47,8 @@ button {
     font-size: 18px;
 }
 
+/* Hero Selectors */
+
 .hero {
     display: flex;
     justify-content: center;
@@ -71,7 +73,7 @@ button {
 }
 
 .hero-image {
-    width: 400px;
+    max-width: 400px;
 }
 
 .hero-image img {
@@ -82,14 +84,21 @@ button {
 
 
 
-/* Hero Selectors */
-
-
-
 /* Info and Card Selectors */
 
+.card {
+
+}
 
 
+.illustration {
+
+}
+
+
+.description {
+    
+}
 
 /*Quote Selectors*/
 
