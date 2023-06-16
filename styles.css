@@ -135,9 +135,23 @@ button {
     width: 150px;
     justify-content: center;
     text-align: center;
+    font-size: 14px;
 }
 
 /*Quote Selectors*/
+.quote {
+
+}
+
+.block-quote {
+
+}
+
+.thor {
+
+}
+
+/* CTA selectors */
 
 
 
