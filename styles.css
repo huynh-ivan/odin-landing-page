@@ -18,12 +18,26 @@ button {
     align-items: center;
     width: 96px;
     height: 40px;
+    border: nones;
+    border-radius: 8px;
 }
+
 
 /* Global Selectors */
 
 .bg-dark {
     background-color: #1f2937;
+}
+
+.primary {
+    background-color: #3882f6;
+    font-weight: 700;
+    color: #e5e7eb;
+
+}
+
+.secondary {
+
 }
 
 /* Header Selectors */
@@ -177,6 +191,13 @@ button {
 
 /* CTA selectors */
 
+.cta {
+
+}
+
+.cta-content {
+
+}
 
 
 
